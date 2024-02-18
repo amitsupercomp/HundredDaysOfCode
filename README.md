@@ -161,3 +161,16 @@ Input: nums = [8], k = 100000
 Output: [-1]
 Explanation: 
 - avg[0] is -1 because there are less than k elements before and after index 0.
+
+
+
+Day-5
+---------
+
+Given a String and you have to count length of last word.
+
+Example-1 : String str = "Amit Kumar Srivasatava"
+ output : length = 10
+
+ Example-2 : String str = "Amit"
+ output : length = 4
