@@ -186,3 +186,56 @@ input would have exactly one solution.
 
 For example, given array S = {-1 2 1 -4}, and target = 1.
 The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
+
+
+Day-7
+-------------
+
+Reverse Only Letters
+-----------------------
+Given a string s, reverse the string according to the following rules:
+
+All the characters that are not English letters remain in the same position.
+All the English letters (lowercase or uppercase) should be reversed.
+Return s after reversing it.
+
+Example 1:
+Input: s = "ab-cd"
+Output: "dc-ba"
+
+Example 2:
+Input: s = "a-bC-dEf-ghIj"
+Output: "j-Ih-gfE-dCba"
+
+Example 3:
+Input: s = "Test1ng-Leet=code-Q!"
+Output: "Qedo1ct-eeLg=ntse-T!"
+
+
+Reverse Words in a String III
+-----------------------------------
+Given a string s, reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
+
+Example 1:
+Input: s = "Let's take LeetCode contest"
+Output: "s'teL ekat edoCteeL tsetnoc"
+
+Example 2:
+Input: s = "Mr Ding"
+Output: "rM gniD"
+
+
+Subarray Product Less Than K
+---------------------------------
+Given an array of integers nums and an integer k, return the number of contiguous subarrays where the product of all the elements in the subarray is strictly less than k.
+
+Example 1:
+Input: nums = [10,5,2,6], k = 100
+Output: 8
+Explanation: The 8 subarrays that have product less than 100 are:
+[10], [5], [2], [6], [10, 5], [5, 2], [2, 6], [5, 2, 6]
+Note that [10, 5, 2] is not included as the product of 100 is not strictly less than k.
+
+Example 2:
+Input: nums = [1,2,3], k = 0
+Output: 0
