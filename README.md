@@ -274,3 +274,30 @@ Example 2:
 Input: nums1 = [1,2,3,6], nums2 = [2,3,4,5]
 Output: 2
 Explanation: There are two common elements in the array 2 and 3 out of which 2 is the smallest, so 2 is returned.
+
+
+Day-9
+-----------
+
+Contains Duplicate
+----------------------
+Given an array of integers, find if the array contains any duplicates. Your function
+should return true if any value appears at least twice in the array, and it should return
+false if every element is distinct.
+
+
+Triangle Minimum Path
+--------------------------
+Given a triangle, find the minimum path sum from top to bottom. Each step you may
+move to adjacent numbers on the row below.
+For example, given the following triangle
+[
+[2],
+[3,4],
+[6,5,7],
+[4,1,8,3]
+]
+The minimum path sum from top to bottom is 11 (i.e., 2 + 3 + 5 + 1 = 11).
+Note: Bonus point if you are able to do this using only O(n) extra space, where n is
+the total number of rows in the triangle.
+30.1
