@@ -45,23 +45,22 @@ public class MergeSortedLinkedList {
 		
 		ListNode[] finalList = {list1, list2, list3};
 		
-		ListNode[] dummyLists = finalList;
+		ListNode dummyLists = null;
 		
-		//System.out.println("List before sorted :: ");
+		System.out.println("List before sorted :: ");
 		
-//		for (int i = 0; i < dummyLists.length; i++) {
-//			while (dummyLists[i] != null) {
-//				System.out.print(dummyLists[i].val + ", ");
-//				dummyLists[i] = dummyLists[i].next;
-//			}
-//			System.out.println();
-//		}
-		
-		dummyLists = finalList;
+		for (int i = 0; i < finalList.length; i++) {
+			dummyLists = finalList[i];
+			while (dummyLists != null) {
+				System.out.print(dummyLists.val + ", ");
+				dummyLists = dummyLists.next;
+			}
+			System.out.println();
+		}
 		
 		System.out.println("After sorting.....");
 		
-		ListNode finalSortedList = mergeKLists(dummyLists);
+		ListNode finalSortedList = mergeKLists(finalList);
 		while (finalSortedList != null) {
 			System.out.print(finalSortedList.val + ", ");
 			finalSortedList = finalSortedList.next;
