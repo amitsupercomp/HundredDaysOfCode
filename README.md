@@ -598,3 +598,18 @@ Explanation: The given array is in zig-zag pattern as we can see 3 < 7 > 4 < 8 >
 Input: N = 4 , arr[] = {1, 4, 3, 2} 
 Output: arr[] = {1, 4, 2, 3}
 Explanation: The given array is in zig-zag pattern as we can see 1 < 4 > 2 < 3
+
+
+
+Day-22
+----------
+Rearrange Array Alternately
+-----------------------------
+Given a sorted array A[] consisting of N integers. The task is to rearrange the array alternatively i.e. the first element should be maxed value, second should be min value, third should be the second max, fourth should be the second min, and so on.
+
+Examples:
+Input: A[] = {1, 2, 3, 4, 5, 6, 7}
+Output: {7, 1, 6, 2, 5, 3, 4}
+Explanation:
+Input: A[] = {1, 2, 3, 4, 5, 6}
+Output: {6, 1, 5, 2, 4, 3}
