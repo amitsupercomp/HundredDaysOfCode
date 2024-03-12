@@ -762,3 +762,88 @@ from 1st position to 5th position
 is 15.
 Your Task:
 You don't need to read input or print anything. The task is to complete the function subarraySum() which takes arr, N, and S as input parameters and returns an ArrayList containing the starting and ending positions of the first such occurring subarray from the left where sum equals to S. The two indexes in the array should be according to 1-based indexing. If no such subarray is found, return an array consisting of only one element that is -1.
+
+
+
+Day-28
+---------------
+Largest Number formed from an Array
+------------------------------------
+Given an array of strings arr[] of length n representing non-negative integers, arrange them in a manner, such that, after concatanating them in order, it results in the largest possible number. Since the result may be very large, return it as a string.
+
+Example 1:
+Input: 
+n = 5
+arr[] =  {"3", "30", "34", "5", "9"}
+Output: "9534330"
+Explanation: 
+Given numbers are  {"3", "30", "34", "5", "9"}, 
+the arrangement "9534330" gives the largest value.
+
+Example 2:
+Input: 
+n = 4
+arr[] =  {"54", "546", "548", "60"}
+Output: "6054854654"
+Explanation: 
+Given numbers are {"54", "546", "548", "60"}, the 
+arrangement "6054854654" gives the largest value.
+
+Your Task:  
+You don't need to read input or print anything. Your task is to complete the function printLargest() which takes the array of strings arr[] as a parameter and returns a string denoting the answer.
+
+Row with max 1s
+-----------------------
+Given a boolean 2D array of n x m dimensions, consisting of only 1's and 0's, where each row is sorted. Find the 0-based index of the first row that has the maximum number of 1's.
+
+Example 1:
+Input: 
+N = 4 , M = 4
+Arr[][] = {{0, 1, 1, 1},
+           {0, 0, 1, 1},
+           {1, 1, 1, 1},
+           {0, 0, 0, 0}}
+Output: 2
+Explanation: Row 2 contains 4 1's (0-based
+indexing).
+
+Example 2:
+Input: 
+N = 2, M = 2
+Arr[][] = {{0, 0}, {1, 1}}
+Output: 1
+Explanation: Row 1 contains 2 1's (0-based
+indexing).
+
+Your Task:  
+You don't need to read input or print anything. Your task is to complete the function rowWithMax1s() which takes the array of booleans arr[][], n and m as input parameters and returns the 0-based index of the first row that has the most number of 1s. If no such row exists, return -1.
+
+Row with minimum number of 1's
+------------------------------------
+Given a 2D binary matrix A of dimensions NxM, determine the row that contains a minimum number of 1's.
+Note-The matrix contains only 1s and 0s. Also, if two or more rows contain the minimum number of 1's, the answer is the lowest of those indices.
+
+Example 1:
+Input:
+N=4,M=4
+A=[[1,1,1,1],[1,1,0,0],[0,0,1,1],[1,1,1,1]]
+Output:
+2
+Explanation:
+Rows 2 and 3 contain the minimum number 
+of 1's(2 each).Since, 2 is less than 3.
+Thus, the answer is 2.
+
+Example 2:
+Input:
+N=3,M=3
+A=[[0,0,0],[0,0,0],[0,0,0]]
+Output:
+1
+Explanation:
+All the rows contain the same number 
+of 1's(0 each).Among them, index 1 
+is the smallest, so the answer is 1.
+
+Your Task:
+You don't need to read input or print anything. Your task is to complete the function minRow() which takes the two integers N, M as well as the 2D matrix A as input parameters and returns the minimum index of the row which contains the least number of 1's.
