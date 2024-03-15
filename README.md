@@ -957,3 +957,33 @@ Explanation: The 4 subarrays are bolded and underlined below:
 Example 2:
 Input: nums = [0,0,0,0,0], goal = 0
 Output: 15
+
+
+Day-31
+----------
+Product of Array Except Self
+------------------------------
+Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
+The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
+You must write an algorithm that runs in O(n) time and without using the division operation.
+
+Example 1:
+Input: nums = [1,2,3,4]
+Output: [24,12,8,6]
+
+Example 2:
+Input: nums = [-1,1,0,-3,3]
+Output: [0,0,9,0,0]
+ 
+
+Meeting Rooms
+-----------------
+Given an array of meeting time intervals where intervals[i] = [starti, endi], determine if a person could attend all meetings.
+
+Example 1:
+Input: intervals = [[0,30],[5,10],[15,20]]
+Output: false
+
+Example 2:
+Input: intervals = [[7,10],[2,4]]
+Output: true
