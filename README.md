@@ -1141,3 +1141,76 @@ Output: [2,1]
 Example 3:
 Input: head = []
 Output: []
+
+
+
+Day-38
+---------
+Valid Palindrome
+-----------------
+A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
+
+Given a string s, return true if it is a palindrome, or false otherwise.
+
+Example 1:
+Input: s = "A man, a plan, a canal: Panama"
+Output: true
+Explanation: "amanaplanacanalpanama" is a palindrome.
+
+Example 2:
+Input: s = "race a car"
+Output: false
+Explanation: "raceacar" is not a palindrome.
+
+Example 3:
+Input: s = " "
+Output: true
+Explanation: s is an empty string "" after removing non-alphanumeric characters.
+Since an empty string reads the same forward and backward, it is a palindrome.
+
+Palindrome Number
+-------------------
+Given an integer x, return true if x is a 
+palindrome
+, and false otherwise.
+
+Example 1:
+Input: x = 121
+Output: true
+Explanation: 121 reads as 121 from left to right and from right to left.
+
+Example 2:
+Input: x = -121
+Output: false
+Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
+
+Example 3:
+Input: x = 10
+Output: false
+Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
+
+Palindrome Linked List
+-------------------------
+Given the head of a singly linked list, return true if it is a 
+palindrome
+ or false otherwise.
+
+Example 1:
+Input: head = [1,2,2,1]
+Output: true
+
+Example 2:
+Input: head = [1,2]
+Output: false
+
+Remove Vowels from a String
+----------------------------
+Given a string s, remove the vowels 'a', 'e', 'i', 'o', and 'u' from it, and return the new string.
+
+Example 1:
+Input: s = "leetcodeisacommunityforcoders"
+Output: "ltcdscmmntyfrcdrs"
+
+Example 2:
+Input: s = "aeiou"
+Output: ""
