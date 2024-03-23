@@ -1,7 +1,5 @@
 package day38;
 
-import day37.ReverseLinkedList.ListNode;
-
 public class PalindromeLinkedList {
 	
 	public static class ListNode {
