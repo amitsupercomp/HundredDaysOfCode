@@ -4,7 +4,7 @@ import java.util.*;
 public class DuplicateNumber {
 	
 	public static void main(String[] args) {
-		int[] nums = {1,3,4,2,2};
+		int[] nums = {1,3,4,2,2,3,3};
 		System.out.println("Duplicate Number ::  " + findDuplicate(nums));
 		System.out.println("Duplicate Number ::  " + findDuplicate1(nums));
 		System.out.println("Duplicate Number ::  " + findDuplicate2(nums));
@@ -50,5 +50,5 @@ public class DuplicateNumber {
 		}
 		return dupl;
 	}
-
+	
 }
