@@ -1980,3 +1980,52 @@ Output: "adz"
 Example 3:
 Input: root = [2,2,1,null,1,0,null,0]
 Output: "abc"
+
+
+Day-65
+--------
+Island Perimeter
+------------------
+You are given row x col grid representing a map where grid[i][j] = 1 represents land and grid[i][j] = 0 represents water.
+
+Grid cells are connected horizontally/vertically (not diagonally). The grid is completely surrounded by water, and there is exactly one island (i.e., one or more connected land cells).
+
+The island doesn't have "lakes", meaning the water inside isn't connected to the water around the island. One cell is a square with side length 1. The grid is rectangular, width and height don't exceed 100. Determine the perimeter of the island.
+
+Example 1:
+Input: grid = [[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]]
+Output: 16
+Explanation: The perimeter is the 16 yellow stripes in the image above.
+
+Example 2:
+Input: grid = [[1]]
+Output: 4
+
+Example 3:
+Input: grid = [[1,0]]
+Output: 4
+
+Find All The Lonely Nodes
+---------------------------
+In a binary tree, a lonely node is a node that is the only child of its parent node. The root of the tree is not lonely because it does not have a parent node.
+
+Given the root of a binary tree, return an array containing the values of all lonely nodes in the tree. Return the list in any order.
+
+Example 1:
+Input: root = [1,2,3,null,4]
+Output: [4]
+Explanation: Light blue node is the only lonely node.
+Node 1 is the root and is not lonely.
+Nodes 2 and 3 have the same parent and are not lonely.
+
+Example 2:
+Input: root = [7,1,4,6,null,5,3,null,null,null,null,null,2]
+Output: [6,2]
+Explanation: Light blue nodes are lonely nodes.
+Please remember that order doesn't matter, [2,6] is also an acceptable answer.
+
+Example 3:
+Input: root = [11,99,88,77,null,null,66,55,null,null,44,33,null,null,22]
+Output: [77,55,33,66,44,22]
+Explanation: Nodes 99 and 88 share the same parent. Node 11 is the root.
+All other nodes are lonely.
