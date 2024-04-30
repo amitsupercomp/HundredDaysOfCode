@@ -2346,3 +2346,63 @@ Example 2:
 Input: nums = [2,0,2,0], k = 0
 Output: 0
 Explanation: The XOR of elements of the array is (2 XOR 0 XOR 2 XOR 0) == 0 == k. So no operation is needed.
+
+
+
+Day-77
+-------
+Number of Wonderful Substrings
+---------------------------------
+A wonderful string is a string where at most one letter appears an odd number of times.
+
+For example, "ccjjc" and "abab" are wonderful, but "ab" is not.
+Given a string word that consists of the first ten lowercase English letters ('a' through 'j'), return the number of wonderful non-empty substrings in word. If the same substring appears multiple times in word, then count each occurrence separately.
+
+A substring is a contiguous sequence of characters in a string.
+
+Example 1:
+Input: word = "aba"
+Output: 4
+Explanation: The four wonderful substrings are underlined below:
+- "aba" -> "a"
+- "aba" -> "b"
+- "aba" -> "a"
+- "aba" -> "aba"
+
+Example 2:
+Input: word = "aabb"
+Output: 9
+Explanation: The nine wonderful substrings are underlined below:
+- "aabb" -> "a"
+- "aabb" -> "aa"
+- "aabb" -> "aab"
+- "aabb" -> "aabb"
+- "aabb" -> "a"
+- "aabb" -> "abb"
+- "aabb" -> "b"
+- "aabb" -> "bb"
+- "aabb" -> "b"
+
+Example 3:
+Input: word = "he"
+Output: 2
+Explanation: The two wonderful substrings are underlined below:
+- "he" -> "h"
+- "he" -> "e"
+
+Bitwise OR of All Subsequence Sums
+------------------------------------
+Given an integer array nums, return the value of the bitwise OR of the sum of all possible subsequences in the array.
+
+A subsequence is a sequence that can be derived from another sequence by removing zero or more elements without changing the order of the remaining elements.
+
+Example 1:
+Input: nums = [2,1,0,3]
+Output: 7
+Explanation: All possible subsequence sums that we can have are: 0, 1, 2, 3, 4, 5, 6.
+And we have 0 OR 1 OR 2 OR 3 OR 4 OR 5 OR 6 = 7, so we return 7.
+
+Example 2:
+Input: nums = [0,0,0]
+Output: 0
+Explanation: 0 is the only possible subsequence sum we can have, so we return 0.
