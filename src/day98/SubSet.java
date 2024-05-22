@@ -6,9 +6,8 @@ public class SubSet {
 	public static void main(String[] args) {
 		int[] nums = {1,2,3};
 		
-		for (List list : subsets(nums)) {
-			System.out.println(list.toString());
-		}
+		System.out.println("Output :: " + subsets(nums));
+	
 	}
 	
 	private static List<List<Integer>> subsets(int[] nums) {
